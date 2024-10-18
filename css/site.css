@@ -1,0 +1,189 @@
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/*  */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho_fundo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+}
+.img_opcoes {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 3rem;
+  text-align: 1;
+}
+.logo_senac_c {
+  height: 85%;
+  width: auto;
+}
+.link_logo_senac_c {
+  height: 80%;
+  width: auto;
+}
+.ul1 {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.div_search {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  font-weight: 600;
+  gap: 1rem;
+}
+.opcoes {
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 15px;
+  color: #004a8d;
+}
+.opcoes2 {
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  color: #004a8d;
+}
+.bi-search {
+  color: #004a8d;
+  font-size: 20px;
+}
+.opcoes:hover {
+  color: rgb(247, 148, 29);
+}
+/*  */
+
+.cabecalho_sec {
+  display: flex;
+  align-items: center;
+  background-color: #004a8d;
+  width: 100%;
+  height: 40px;
+}
+
+.ul2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.3rem;
+  margin-left: 19.5%;
+  width: auto;
+}
+
+.bi-chevron-double-right {
+  display: flex;
+  align-items: center;
+  margin: 0 0.2rem;
+  font-size: 10px;
+  color: white;
+}
+
+.opcoes3 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Montserrat";
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  line-height: 40px;
+}
+
+/*  */
+
+.conteiner_fundo_ca {
+  position: relative;
+}
+.black_quad {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  width: 1200px;
+  height: 380px;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fundo_casa_aberta {
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+.titulo_bq {
+  color: white;
+  font-size: 45px;
+  margin-left: 2%;
+  font-family: "Montserrat";
+}
+.desc_bq {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 22px;
+  margin-left: 2%;
+  font-weight: 400;
+}
+
+.botao_amarelo_bq {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  border-radius: 8px;
+  height: 70px;
+  cursor: pointer;
+  margin-left: 2%;
+  font-weight: 600;
+  font-family: "Montserrat";
+  color: white;
+  background-color: #f7941d;
+}
+.botao_amarelo_bq:hover {
+  background-color: rgb(0, 208, 130);
+}
+
+/*  */
+
+.rodape {
+  display: flex;
+  background-color: #00427e;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 127.9px;
+}
+.ul3 {
+  display: flex;
+  columns: row;
+  gap: 4rem;
+}
+.li_footer {
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: -3.5%;
+  margin-left: -2%;
+  color: white;
+}
+.insta {
+    color: #f7941d;
+    text-decoration: underline;
+    font-weight: 800;
+}
